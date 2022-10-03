@@ -41,6 +41,7 @@ public class ProduitFicheBean implements Serializable {
     @Setter
     private UploadedFile file;
 
+
     @PostConstruct
     public void init() {
         try {
