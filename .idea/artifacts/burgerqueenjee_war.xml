@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="burgerqueenjee:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>burgerqueenjee</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="burgerqueenjee-1.0.war">
+      <element id="artifact" artifact-name="burgerqueenjee:war exploded" />
+    </root>
+  </artifact>
+</component>
